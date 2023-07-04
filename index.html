@@ -14,24 +14,74 @@
 
     <title>Frontend Mentor | FAQ Accordion Card</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./style.css" />
+
+    <script src="./script.js" type="module"></script>
   </head>
   <body>
-    How many team members can I invite? You can invite up to 2 additional users
-    on the Free plan. There is no limit on team members for the Premium plan.
-    What is the maximum file upload size? No more than 2GB. All files in your
-    account must fit your allotted storage space. How do I reset my password?
-    Click “Forgot password” from the login page or “Change password” from your
-    profile page. A reset link will be emailed to you. Can I cancel my
-    subscription? Yes! Send us a message and we’ll process your request no
-    questions asked. Do you provide additional support? Chat and email support
-    is available 24/7. Phone lines are open during normal business hours.
+    <main class="main">
+      <section class="images">
+        <img
+          class="illustration"
+          src="./images/illustration-woman-online-desktop.svg"
+          alt=""
+        />
+        <img class="box" src="./images/illustration-box-desktop.svg" alt="" />
+      </section>
+      <section class="content">
+        <h2 class="title">FAQ</h2>
+        <ul class="list">
+          <li class="item open">
+            <h5 class="question">How many team members can I invite?</h5>
+            <p class="answer">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </li>
+          <li class="item">
+            <h5 class="question">What is the maximum file upload size?</h5>
+            <p class="answer">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </li>
+          <li class="item">
+            <h5 class="question">How do I reset my password?</h5>
+            <p class="answer">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </li>
+          <li class="item">
+            <h5 class="question">Can I cancel my subscriptio?</h5>
+            <p class="answer">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </li>
+          <li class="item">
+            <h5 class="question">Do you provide additional support?</h5>
+            <p class="answer">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Gleb</a>.
     </div>
   </body>
 </html>
